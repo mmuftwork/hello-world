@@ -30,6 +30,5 @@ LIGHTGRAY="\[\033[0;37m\]\[\033[1m\]"
 PS1="\u [\h]$NC \w > "
 
 if [ "$PS1" ]; then
-   PS1="$NO_COLOR\u[$PURPLE\h$NO_COLOR] $RED\w $NO_COLOR> "
+   PS1="$NO_COLOR\u[$PURPLE\h$NO_COLOR] $RED\w  $CYAN\$(vcprompt)$NO_COLOR> "
 fi
-
