@@ -32,3 +32,5 @@ PS1="\u [\h]$NC \w > "
 if [ "$PS1" ]; then
    PS1="$NO_COLOR\u[$PURPLE\h$NO_COLOR] $RED\w  $CYAN\$(vcprompt)$NO_COLOR> "
 fi
+
+function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
