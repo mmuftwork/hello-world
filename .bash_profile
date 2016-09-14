@@ -34,3 +34,5 @@ if [ "$PS1" ]; then
 fi
 
 function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
+function rms () { for f in *.mp3;do mv "$f" $(echo "$f" | sed 's/ /_/g');done }
+function scpf () { scp $1 mmerkelson@6dvapp02.uftwf.local:$2; }

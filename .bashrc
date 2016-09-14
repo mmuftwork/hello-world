@@ -17,5 +17,9 @@ alias 6dv='ssh 6dvapp02.uftwf.local'
 alias name='hostnamectl'
 alias iphone='cd /run/user/1002/gvfs/afc:host=1d953e416b88cb7681ffac632be4a3849d843e01/'
 alias db='cd ~/bin/deadbeef-0.7.2/;rm -rf ./nohup.out;nohup ./deadbeef & disown;cd ~-'
+alias bs='cd ~/tmp/bansheenohup;rm -rf ./nohup.out;nohup banshee & disown;cd -'
+alias et='cd ~/tmp/easytagnohup;rm -rf ./nohup.out;nohup easytag & disown;cd -'
+alias rmspaces=rms
+alias yum='sudo yum'
 
 HISTFILESIZE=10000000
