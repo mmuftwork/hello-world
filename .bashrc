@@ -21,5 +21,8 @@ alias bs='cd ~/tmp/bansheenohup;rm -rf ./nohup.out;nohup banshee & disown;cd -'
 alias et='cd ~/tmp/easytagnohup;rm -rf ./nohup.out;nohup easytag & disown;cd -'
 alias rmspaces=rms
 alias yum='sudo yum'
+alias view='eog'
+alias ged='gedit'
+alias screenshot='echo -e "shift - Print Screen for selected area.\nPrint Screen for whole thing.\nalt - Print Screen for selected window."'
 
 HISTFILESIZE=10000000
